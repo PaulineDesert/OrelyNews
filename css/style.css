@@ -41,16 +41,16 @@ span {
 h1 {
     color:#5abdf8;
     text-transform: uppercase;
-    font-size:1.5rem
+    font-size:1.5rem;
 }
 h2 {
     text-transform: uppercase;
     font-size:1.2rem;
-    margin-bottom:0.8vh
+    margin-bottom:0.8vh;
 }
 h3 {
     text-transform: uppercase;
-    font-size:1.2rem;
+    font-size:1rem;
     margin-bottom:0.8vh
 }
 p.hook {
@@ -58,7 +58,12 @@ p.hook {
 }
 p {
     margin:0;
+    font-size:0.8rem
 }
 .subject {
     margin:0.5rem
+}
+h1, h2, h3, p {
+    font-family:arial;
+    font-weight:normal
 }
