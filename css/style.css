@@ -67,3 +67,16 @@ h1, h2, h3, p {
     font-family:arial;
     font-weight:normal
 }
+.imgA {
+    position:relative;
+    margin:0.5rem
+}
+.img-actus {
+    position:relative
+}
+.color-block-img {
+    position:absolute;
+    bottom:0.5vh;
+    background-color:#1c93ee;
+    padding:5px
+}
