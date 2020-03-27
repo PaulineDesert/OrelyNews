@@ -67,16 +67,25 @@ h1, h2, h3, p {
     font-family:arial;
     font-weight:normal
 }
-.imgA {
+.imgA,
+.imgB,
+.imgC {
     position:relative;
     margin:0.5rem
 }
 .img-actus {
     position:relative
 }
-.color-block-img {
+.imgA .color-block-img {
     position:absolute;
-    bottom:0.5vh;
+    bottom:0.6vh;
     background-color:#1c93ee;
+    padding:5px
+}
+.imgB .color-block-img,
+.imgC .color-block-img {
+    position:absolute;
+    bottom:0.6vh;
+    background-color:#c12051;
     padding:5px
 }
